@@ -65,14 +65,19 @@ textarea {
     flex: 1 1 100%;
 }
 
-.preview-img{
-    max-width: 100%;
-    height: auto;
-    margin-top: 10px;
-    display: none;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 5px;
+#tratamientoDatos {
+    width: auto;
+    margin-right: 10px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+label[for="tratamientoDatos"] {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    padding: 5px 0;
 }
 
 .button-container{
@@ -81,7 +86,7 @@ textarea {
 }
 
 button {
-    background: linear-gradient(130deg, pink, indigo);
+    background: linear-gradient(130deg, rgb(48, 48, 145), rgb(0, 0, 0));
     color: white;
     border: none;
     padding: 10px 15px;
@@ -93,5 +98,5 @@ button {
 }
 
 button:hover {
-    background: linear-gradient(130deg, indigo, pink);
+    background: linear-gradient(130deg, rgb(0, 0, 0), rgb(48, 48, 145));
 }
