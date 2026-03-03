@@ -21,7 +21,7 @@ form.addEventListener("submit", function (event) {
   proyectos.push({ nombre, mensaje, tratamientoDatos });
   localStorage.setItem("proyectos", JSON.stringify(proyectos));
 
-  alert("Proyecto registrado correctamente.");
+  alert("Recomendación enviada con éxito.");
 
   location.reload();
 });
